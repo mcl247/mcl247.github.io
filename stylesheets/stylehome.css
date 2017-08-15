@@ -1,0 +1,1043 @@
+body{
+	background-color: #ffffff;
+	/*font-family: "Quicksand", sans-serif;*/
+	font-family: 'Lato', sans-serif;
+	color:#000;
+	margin: 0px;
+	padding: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.pagetitle{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.1em;
+	color: #000;
+}
+.projectitle{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.1em;
+	color: #000;
+}
+
+#homepage{
+	background: url(../images/splash.png);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	color:#fff;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+/*haier home-page cover*/
+#haiercover{
+	background: url(../images/haiercover.png);
+	background-attachment: fixed;
+	max-height: 570px;
+	margin-top: 10px;
+	background-size:115%;
+	background-position: -140px;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#cusdcover{
+	background: url(../images/cusdgrouppic.png);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#segcover{
+	background: url(../images/seg.jpg);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#stakecover{
+	background: url(../images/marcomm.jpg);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#expocover{
+	background: url(../images/cusdpinup.jpg);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#heccover{
+	background: url(../images/hec.jpg);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#webcover{
+	background: url(../images/code.jpg);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#art1cover{
+	background: url(../images/lights.jpg);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#art2cover{
+	background: url(../images/house36.png);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#art3cover{
+	background: url(../images/perspectives.png);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+#art4cover{
+	background: url(../images/materials1.png);
+	background-attachment: fixed;
+	max-height:570px;
+	margin-top: 10px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	color:#fff;
+	margin: 5px;
+	padding: 0px;
+	width: 100%;
+	margin-left: -0.5px;
+}
+/*@font-face{
+	font-family: alexbrush;
+	src: url(../fonts/alex_brush/alexbrush.ttf);
+	}
+
+@font-face{
+	font-family: scriptinapro;
+	src: url(../fonts/scriptina_pro/scriptina_pro.otf);
+}*/
+#maintitle{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;	
+	width: 70%;
+	}
+@keyframes makevisible{
+	0%	{color: #fff;
+		}
+	60% {color: rgba(255,255,255,0.1);
+		}
+}
+#stupidspace{
+	padding-top: 15%;
+}
+/*#stupidspace2{
+	padding-top: 5%;
+}*/
+#name{
+	position: relative;
+	color: #000;
+	font-size: 500%;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+	width: 100%;
+	padding-bottom: 9%;
+}
+#covername{
+	position: relative;
+	color: #fff;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+	margin-top: -43px;
+}
+#covername2{
+	position: relative;
+	color: #fff;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+	margin-top: -120px;
+}
+#covername3{
+	position: relative;
+	color: #fff;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+	margin-top: -43px;
+}
+/*#name:hover{
+	-webkit-transition: all .3s linear;
+	color: rgba(255,255,255,0.3);
+}*/
+
+#menu1{
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+	padding: 10px;
+	font-size: 110%;
+	width: 100%;
+	margin-bottom: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	overflow: auto;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+}
+#menu2{
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+	padding: 15px;
+	font-size: 110%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	overflow: auto;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+}
+#menu2 li{
+	color: #000;
+}
+#menu1 li{
+	color: #000;
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3%;
+	background-color: rgba(255,255,255,0);
+	/*-webkit-transition: all .3s linear;*/
+}
+
+#menu1 li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+}
+
+/*a#about{
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}*/
+/*about page styling*/
+
+#aboutpage {
+	background-color: #F5f5f5;
+}
+#profilepic{
+	width: 300px;
+	height: auto;
+}
+/*footer styling*/
+/*.footer{
+	margin-top: 7%;
+	color: #fff;
+	text-align: center;
+	font-size: 80%;
+	letter-spacing: 0.1em;
+	font-family: 'Lato', sans-serif;
+}*/
+/*counter styling*/
+/*#counter{
+	background-color: #F0F0F0;
+	text-align: center;
+	font-size: 80%;
+}
+#counter a{
+	color: white;
+	text-decoration: none;
+}*/
+
+
+/*..................*/
+
+
+/*ORIGINALLY FROM STYLE.CSS*/
+/*@font-face{
+	font-family: alpaca;
+	src: url(../fonts/alpaca/actualalpaca.ttf);
+}
+@font-face{
+	font-family: alexbrush;
+	src: url(../fonts/alex_brush/alexbrush.ttf);
+}*/
+
+h1{
+	text-align: center;
+	font-weight: 400;
+}
+h2{
+	text-align: center;
+	font-weight: 100;
+}
+/*about page styling*/
+@keyframes makephotovisible{
+	0%	{opacity: 0;
+		}
+	40% {opacity: 1;
+		}
+}
+@keyframes maketextvisible{
+	0%	{opacity: 0;
+		}
+	30%{opacity: 0;}
+	90% {opacity: 1;
+		}
+}
+@keyframes shiftelement{
+	0% {margin-top: 10%;}
+	50% {margin-top: 0%;}
+}
+#picture{
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	height: 500px;
+/*	background-image: url(../images/profilepicture.jpg);*/
+/*	border-radius: 50%;*/
+	background-size: 100%;
+	background-position: 70% 70%;
+	overflow: hidden;
+	object-fit: cover;
+	animation-name: makephotovisible;
+	animation-duration: 3s;
+
+}
+#aboutparagraph{
+	line-height: 1.5em;
+	animation-name: maketextvisible;
+	animation-duration: 3s;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #808080;
+}
+a.resume {
+display: inline-block;
+width: 125px;
+height: 35px;
+padding-top: 6px;
+border: 1px solid #f75067;
+text-align: center;
+text-transform: uppercase;
+}
+#icons{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	width: 14%;
+	animation-name: maketextvisible;
+	animation-duration: 3s;
+}
+#iconlink{
+	text-decoration: none;
+}
+
+/*navbar styling*/
+#navbar, #navbar2{
+	
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+	padding: 10px;
+	font-size: 9px;
+	width: 100%;
+	margin-left: -15px;
+	margin-right: auto;
+	list-style: none;
+	overflow: auto;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+/*	border-bottom: solid 1px #e76565;*/
+	position: fixed;
+	z-index: 1;
+	opacity: 0.8;
+  	filter: alpha(opacity=50);
+}
+#navbar li, #navbar2 li{
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-radius: 3%;
+	background-color: rgba(255,255,255,0);
+	/*-webkit-transition: all .3s linear;*/
+}
+
+#navbar li a, #navbar2 li a{
+	text-decoration: none;
+	color: #e76565;
+	text-align: center;
+	padding: 8px;
+}
+#navbar li a:hover, #navbar2 li a:hover{
+	cursor: pointer;
+}
+
+#menubar, #menubar2{
+	width: 100%;
+	top: 0px;
+	padding: 10px;
+	padding-bottom: 60px;
+	background-color: #fff;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	/*border-top: #fff;
+	border-left: #fff;
+	border-right: #fff;*/
+}
+/*portfolio page and albums styling*/
+#album{
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding-bottom: 10%;
+	width: 100%;
+	overflow: auto;
+
+}
+/*#album2{
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding-bottom: 10%;
+	width: 100%;
+	overflow: auto;
+}*/
+#album3{
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding-bottom: 10%;
+	width: 100%;
+	overflow: auto;
+}
+
+#album li:hover{
+	-webkit-transition: all .1s linear;
+	opacity: 0.6;
+}
+
+/*#album2 li:hover{
+	-webkit-transition: all .1s linear;
+	opacity: 0.6;
+}*/
+#album3 li:hover{
+	-webkit-transition: all .1s linear;
+	opacity: 0.6;
+}
+#al{
+	padding-top: 40%;
+	text-align: center;
+	font-size: 150%;
+	text-decoration: none;
+}
+#albums1, #albums2, #albums3,#albums4, #albumsmobile1, #albumsmobile2, #albumsmobile3, #albumsmobile4{
+	width: 300px;
+	height: 300px;
+}
+/*#albums5, #albums6, #albums7,#albums8, #albumsmobile5, #albumsmobile6, #albumsmobile7, #albumsmobile8{
+	width: 300px;
+	height: 300px;
+}*/
+/*art page squares*/
+#albums9, #albums10, #albums11,#albums12, #albumsmobile9, #albumsmobile10, #albumsmobile11, #albumsmobile12{
+	width: 300px;
+	height: 300px;
+}
+#albums1, #albumsmobile1{
+	color: #000;
+	background-image: url(../images/atlanta.jpg);
+	background-size: 250%;
+	background-position: -220px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums2, #albumsmobile2{
+	color: #fff;
+	background-size: 150%;
+	background-image: url(../images/hec.jpg);
+	background-position: -45px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums3, #albumsmobile3{
+	color: #000;
+	background-size: 140%;
+	background-image: url(../images/haier.png);
+	background-position: -65px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums4, #albumsmobile4{
+	color: #000;
+	background-size: 140%;
+	background-position: -45px;
+	background-image: url(../images/cusd.png);
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+
+/*#albums5, #albumsmobile5{
+	color: #000;
+	background-image: url(../images/housena.jpg);
+	background-size: 150%;
+	background-position: 0px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums6, #albumsmobile6{
+	color: #000;
+	background-size: 150%;
+	background-image: url(../images/photoalbum.jpg);
+	background-position: -72px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums7, #albumsmobile7{
+	color: #000;
+	background-size: 140%;
+/*	background-image: url(../images/haier.png);*/
+/*	background-position: -45px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums8, #albumsmobile8{
+	color: #000;
+	background-size: 180%;
+	background-position: 330px;
+	background-image: url(../images/sisters.jpg);
+	animation: makephotovisible 3s, shiftelement 2s;
+}*/
+/*art page squares*/
+#albums9, #albumsmobile9{
+	color: #fff;
+	background-image: url(../images/light.png);
+	background-size: 130%;
+	background-position: -40px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums10, #albumsmobile10{
+	color: #000;
+	background-size: 166%;
+	background-image: url(../images/house36.png);
+	background-position: -45px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums11, #albumsmobile11{
+	color: #000;
+	background-size: 160%;
+	background-image: url(../images/perspectives.png);
+	background-position: -55px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albums12, #albumsmobile12{
+	color: #fff;
+	background-size: 95%;
+	background-image: url(../images/jeans.png);
+	background-position: 10px;
+	animation: makephotovisible 3s, shiftelement 2s;
+}
+#albumscaption{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
+}
+
+
+/*responsive album styling*/
+#albummobile{
+	visibility: hidden;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding-bottom: 10%;
+	width: 100%;
+	overflow: auto;
+}
+
+#albummobile li:hover{
+	-webkit-transition: all .2s linear;
+	opacity: 0.7;
+}
+.albumscaptionmobile{
+	font-family: 'Lato', sans-serif;
+	font-size: 80%;
+}
+/*individual project page styling*/
+.xxx{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.projectlink{
+	text-decoration: none;
+}
+.projectlink:hover{
+	text-decoration: none;
+}
+.projectstitlelinkedmid, .projectstitle{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: #e76565;
+	text-align: center;
+	font-size: 120%;
+	margin-top: 8%;
+}
+.projectstitlelinked, .projectstitle{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: #e76565;
+	text-align: left;
+	font-size: 120%;
+	margin-top: 8%;
+}
+.projectstitlelinked:hover{
+	-webkit-transition: all .3s linear;
+	color: #000;
+}
+.projectstitlelinkedmid:hover{
+	-webkit-transition: all .3s linear;
+	color: #000;
+}
+
+.projectscaption{
+	font-family: 'Lato', sans-serif;
+	margin: auto;
+	text-align: left;
+ 	color: #000;
+}
+.projectimgs{
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.projectimages{
+	width: 420px;
+	height: auto;
+}
+.projectimages2{
+	width: 1160px;
+	height: auto;
+}
+.projectimages3{
+	width: 250px;
+	height: auto;
+}
+.projectimages4{
+	width: 450px;
+	height: auto;
+}
+a{
+	color: #f75067;
+}
+
+/*.projectscaption {
+    font-family: 'Lato', sans-serif;
+    font-size: 10%;
+    margin:auto;
+    color: #000;
+    text-align: left;
+    float:left;
+   	padding-left: 100px;
+	padding-right: 100px;
+}*/
+/*art page styling*/
+#artpage {
+	background-color: #f5f5f5;
+}
+/*resume page styling*/
+#resume{
+	margin: 5% 35%;
+	width: 400px;
+	height: auto;
+}
+#resume:hover{
+	opacity: 0.5;
+	-webkit-transition: all .3s linear;
+}
+/*contact styling*/
+
+#contactpage {
+	background-color: #fff;
+}
+#contact{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 80px;
+	color: #000;
+}
+footer #backtotop {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #f75067;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    transition: all 0.2s ease;
+    z-index: 2;
+ }
+
+#quickintro{
+	font-weight: bold;
+}
+
+.cols{
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+}
+.row{
+	width: 100%!important;
+	padding-top: 2%;
+}
+
+.content{
+	animation-name: maketextvisible;
+	animation-duration: 3s;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #808080;
+}
+
+#portfoliopage{
+	padding-top: 5%;
+	background-color: #fff;
+}
+#contactpage{
+/*	padding-bottom: 10%;*/
+}
+
+/*responsive navbar styling*/
+#responsivenavbar{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 10px;
+	font-size: 95%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	overflow: auto;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+}
+#responsivenavbar li{
+	display: block;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3%;
+	background-color: rgba(255,255,255,0);
+}
+#responsivenavbar li a{
+	text-decoration: none;
+	color: #e76565;
+	text-align: center;
+	padding: 8px;
+}
+#responsivenavbar li a:hover{
+	cursor: pointer;
+}
+
+/*drop down styling: part of responsive navbar*/
+.dropbtn {
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #e76565;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+
+.dropdown {
+	visibility: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0% 44%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 156px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.creds{
+	font-family: 'lato',sans-serif;
+	position: relative;
+	text-align: center;
+}
+.creds a{
+	color: #000;
+	text-decoration: none;
+}
+.creds a:hover{
+
+	text-decoration: none;
+	-webkit-transition: all .3s linear;
+	color: #e76565;
+}
+
+/*responsive edits*/
+
+@media only screen and (max-width: 400px) {
+	#stupidspace{
+		padding-top: 50%;
+	}
+	#navbar li{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+@media only screen and (max-width: 975px){
+	#navbar li{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#albummobile, #porfoliosquares2{
+		visibility: visible;
+	}
+	#album, #porfoliosquares1{
+		visibility: hidden;
+		height: 30px;
+	}
+	#albums1, #albums2, #albums3,#albums4, #albumsmobile1, #albumsmobile2, #albumsmobile3, #albumsmobile4{
+		width: 150px;
+		height: 150px;
+		background-size: 120%;
+		padding-bottom: 5%;
+	}
+	#albumsmobile3{
+		color: #fff;
+		background-size: 133%;
+		background-image: url(../images/design.png);
+		background-position: -20px;
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+	#albumsmobile4{
+		color: #fff;
+		background-size: 130%;
+		background-position: -20px;
+		background-image: url(../images/projects.png);
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+	#albumsmobile1{
+		color: #fff;
+		background-image: url(../images/photography.jpg);
+		background-size: 150%;
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+
+
+}
+@media only screen and (min-width: 975px){
+	
+	#albummobile, #porfoliosquares2{
+/*		height: 10px;*/
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 675px){
+	.dropdown{
+		visibility: visible;
+	}
+	#normal{
+		visibility: hidden;
+	}
+	#picture{
+		width: 300px;
+		height: 300px;
+	}
+	#aboutparagraph{
+
+		padding: 20px;
+		
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#albums1, #albums2, #albums3,#albums4, #albumsmobile1, #albumsmobile2, #albumsmobile3, #albumsmobile4{
+		width: 100px;
+		height: 100px;
+		background-size: 120%;
+		padding-bottom: 5%;
+	}
+	.albumscaptionmobile{
+		font-size: 40%;
+	}
+	#albumsmobile3{
+		color: #fff;
+		background-size: 140%;
+		background-image: url(../images/design.png);
+		background-position: -20px;
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+	#albumsmobile1{
+		color: #fff;
+		background-image: url(../images/photography.jpg);
+		background-size: 150%;
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+	#albumsmobile4{
+		color: #fff;
+		background-size: 130%;
+		background-position: -15px;
+		background-image: url(../images/projects.png);
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+
+}
+@media only screen and (max-width: 500px){
+	#albums1, #albums2, #albums3,#albums4, #albumsmobile1, #albumsmobile2, #albumsmobile3, #albumsmobile4{
+		width: 75px;
+		height: 75px;
+		background-size: 120%;
+		padding-bottom: 5%;
+	}
+	#albumsmobile3{
+		color: #fff;
+		background-size: 150%;
+		background-image: url(../images/design.png);
+		background-position: -20px;
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+	#albumsmobile1{
+		color: #fff;
+		background-image: url(../images/photography.jpg);
+		background-size: 160%;
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+	#albumsmobile4{
+		color: #fff;
+		background-size: 140%;
+		background-position: -15px;
+		background-image: url(../images/projects.png);
+		animation: makephotovisible 3s, shiftelement 2s;
+	}
+
+}

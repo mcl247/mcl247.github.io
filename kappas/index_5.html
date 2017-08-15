@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Cornell Kappa Phi Lambda Sorority</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Dosis">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Lily+Script+One">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Yellowtail">
+</head>
+
+<body>
+
+    <div id="top">
+        
+        <div id="banner">
+
+            <div class="image2">
+                <img src="images/crest.png" alt="rush">
+                <!-- image by https://umichkappaphilambda.wordpress.com/ -->
+            </div><!-- end of image2 div -->
+
+            <div id="titles">
+                <h1>Kappa Phi Lambda Sorority</h1>
+                <h2>Iota Chapter at Cornell University</h2>
+            </div><!-- end of titles div -->
+
+        </div><!-- end of banner div -->
+      
+        <div id="global_nav">
+            <span class="nav_span"><a class="link" href="index.html">Home</a></span>
+            <span class="nav_span"><a class="link" href="index_2.php">Sisters</a></span>
+            <span class="nav_span"><a class="link" href="index_3.html">Gallery</a></span>
+            <span class="nav_span"><a class="link" href="index_4.html">Rush</a></span>
+            <span class="nav_span"><a class="link">Contact Us</a></span>
+        </div> <!-- end of global_nav div -->
+        
+    </div> <!-- end of top div -->
+
+    <div id="top2">
+
+        <div class="image">
+            <p class="caption">Contact Form</p>
+        </div><!-- end of image div -->
+        
+        <form action ="answer.php" method = "post">
+
+            <p>Name: <input type="text" name="name" size="30"/></p> 
+
+            <p>Year You Were Born: <input type="text" name="year" value="YYYY" size="4"/></p>
+
+            <p>Grade:  <select name="grade">
+                <option value="Select">Select</option> 
+                <option value="Freshmen">Freshmen</option> 
+                <option value="Sophomore">Sophomore</option>
+                <option value="Junior">Junior</option>
+                <option value="Senior">Senior</option>
+            </select></p> 
+
+            <p>Email Address: <input type="text" name="email" size="30"/></p> 
+
+            <p>Comments: <textarea name="comments" rows ="4" cols ="50"></textarea></p>
+
+            <p><input type="checkbox" name="list" value="Yes"/>I want to be added to the emailing listserv.</p>
+
+            <input type="submit" name="submit" value="Submit"/>
+
+        </form><!-- end of form--> 
+
+    </div><!-- end of top2 div -->
+
+</body>
+
+</html>
