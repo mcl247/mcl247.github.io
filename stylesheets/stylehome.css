@@ -6,7 +6,6 @@ body{
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	overflow-y: scroll;
 	width: 100%;
 }
 * {
@@ -235,7 +234,7 @@ p{
 	font-weight: bold;
 	font-family: "Montserrat", sans-serif;
 	width: 100%;
-	margin-top: -120px;
+	margin-top: -200px;
 }
 #covername3{
 	position: relative;
