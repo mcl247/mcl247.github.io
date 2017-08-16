@@ -488,6 +488,7 @@ text-transform: uppercase;
 	margin-right: auto;
 	list-style: none;
 	padding-bottom: 10%;
+	max-height: 200px;
 	width: 100%;
 	overflow: auto;
 
@@ -536,8 +537,8 @@ text-transform: uppercase;
 	text-decoration: none;
 }
 #albums1, #albums2, #albums3,#albums4, #albumsmobile1, #albumsmobile2, #albumsmobile3, #albumsmobile4{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 /*#albums5, #albums6, #albums7,#albums8, #albumsmobile5, #albumsmobile6, #albumsmobile7, #albumsmobile8{
 	width: 300px;
@@ -545,8 +546,8 @@ text-transform: uppercase;
 }*/
 /*art page squares*/
 #albums9, #albums10, #albums11,#albums12, #albumsmobile9, #albumsmobile10, #albumsmobile11, #albumsmobile12{
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 #albums1, #albumsmobile1{
 	color: #000;
