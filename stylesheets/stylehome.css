@@ -912,8 +912,8 @@ footer #backtotop {
 * {box-sizing:border-box}
 
 /* Container for skill bars */
-.container {
-    width: 100%; /* Full width */
+.container1 {
+    width: 60%; /* Full width */
     background-color: #f9f9f9; /* Grey background */
 }
 
@@ -921,7 +921,7 @@ footer #backtotop {
     text-align: right; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
     line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+    color: #808080; /* White text color */
 }
 
 .html {width: 90%; background-color: #4CAF50;} /* Green */
