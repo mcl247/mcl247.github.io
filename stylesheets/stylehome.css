@@ -909,6 +909,25 @@ footer #backtotop {
 	-webkit-transition: all .3s linear;
 	color: #e76565;
 }
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #f9f9f9; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.web {width: 90%; background-color: #4CAF50;} /* Green */
+.product {width: 80%; background-color: #2196F3;} /* Blue */
+.art {width: 95%; background-color: #f44336;} /* Red */
+
 
 /*responsive edits*/
 
