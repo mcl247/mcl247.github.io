@@ -913,20 +913,20 @@ footer #backtotop {
 
 /* Container for skill bars */
 .container1 {
-    width: 60%; /* Full width */
+    width: 50%; /* Full width */
     background-color: #f9f9f9; /* Grey background */
 }
 
 .skills {
     text-align: right; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
-    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: #808080; /* White text color */
+    line-height: 15px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: gray; /* White text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 95%; background-color: #f44336;} /* Red */
+.html {width: 80%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #e6ffe6;} /* Blue */
+.js {width: 90%; background-color: 	#D8BFD8;} /* Red */
 
 
 /*responsive edits*/
