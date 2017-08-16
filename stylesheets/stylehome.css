@@ -924,9 +924,9 @@ footer #backtotop {
     color: white; /* White text color */
 }
 
-.web {width: 90%; background-color: #4CAF50;} /* Green */
-.product {width: 80%; background-color: #2196F3;} /* Blue */
-.art {width: 95%; background-color: #f44336;} /* Red */
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 95%; background-color: #f44336;} /* Red */
 
 
 /*responsive edits*/
