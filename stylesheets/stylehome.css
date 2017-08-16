@@ -9,6 +9,9 @@ body{
 * {
     box-sizing: border-box;
 }
+p{
+	font-size: 12px;
+}
 
 .pagetitle{
 	font-family: 'Lato', sans-serif;
@@ -533,8 +536,8 @@ text-transform: uppercase;
 	text-decoration: none;
 }
 #albums1, #albums2, #albums3,#albums4, #albumsmobile1, #albumsmobile2, #albumsmobile3, #albumsmobile4{
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 }
 /*#albums5, #albums6, #albums7,#albums8, #albumsmobile5, #albumsmobile6, #albumsmobile7, #albumsmobile8{
 	width: 300px;
@@ -542,8 +545,8 @@ text-transform: uppercase;
 }*/
 /*art page squares*/
 #albums9, #albums10, #albums11,#albums12, #albumsmobile9, #albumsmobile10, #albumsmobile11, #albumsmobile12{
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 }
 #albums1, #albumsmobile1{
 	color: #000;
@@ -793,6 +796,8 @@ footer #backtotop {
 .row{
 	width: 100%!important;
 	padding-top: 2%;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .content{
@@ -801,6 +806,7 @@ footer #backtotop {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	color: #808080;
+	font-size: 12px;
 }
 
 #portfoliopage{
