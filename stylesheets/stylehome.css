@@ -396,7 +396,7 @@ h2{
 	line-height: 1.5em;
 	animation-name: maketextvisible;
 	animation-duration: 3s;
-	padding-left: 100px;
+	padding-left: 50px;
 	padding-right: 100px;
 	padding-top: 10px;
 	padding-bottom: 30px;
@@ -913,20 +913,22 @@ footer #backtotop {
 
 /* Container for skill bars */
 .container1 {
-    width: 60%; /* Full width */
+    width: 80%; /* Full width */
     background-color: #f9f9f9; /* Grey background */
+    margin-left: 50px;
 }
 
 .skills {
     text-align: right; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
-    line-height: 15px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    line-height: 10px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
     color: white; /* White text color */
+    font-size: 8px;
 }
 
-.html {width: 80%; background-color: #87CEEB;} /* Green */
-.css {width: 80%; background-color: #b3ffb3;} /* Blue */
-.js {width: 90%; background-color: 	#D8BFD8;} /* Red */
+.html {width: 80%; background-color: #ff9966;} /* Orange */
+.css {width: 75%; background-color:#20b2aa;} /* Green */
+.js {width: 90%; background-color: 	#D8BFD8;} /* Purple */
 
 
 /*responsive edits*/
