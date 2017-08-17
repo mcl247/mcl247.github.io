@@ -53,7 +53,7 @@ p{
 	margin-left: -0.5px;
 }
 #cusdcover{
-	background: url(../images/cusdgrouppic.png);
+	background: url(../images/cusdgroup.jpg);
 	background-attachment: fixed;
 	max-height:570px;
 	margin-top: 10px;
@@ -490,7 +490,6 @@ text-transform: uppercase;
 	margin-right: auto;
 	list-style: none;
 	padding-bottom: 10%;
-	max-height: 200px;
 	width: 100%;
 	overflow: auto;
 
