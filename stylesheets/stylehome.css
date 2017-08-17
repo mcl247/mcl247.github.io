@@ -206,9 +206,9 @@ p{
 #stupidspace{
 	padding-top: 15%;
 }
-/*#stupidspace2{
+#stupidspace2{
 	padding-top: 5%;
-}*/
+}
 #name{
 	position: relative;
 	color: #000;
@@ -441,8 +441,7 @@ text-transform: uppercase;
 /*	border-bottom: solid 1px #e76565;*/
 	position: fixed;
 	z-index: 1;
-	opacity: 0.8;
-  	filter: alpha(opacity=50);
+
 }
 #navbar li, #navbar2 li{
 	display: inline-block;
@@ -478,8 +477,6 @@ text-transform: uppercase;
 	border-width: 1px;
 	position: fixed;
 	z-index: 1;
-	opacity: 0.8;
-  	filter: alpha(opacity=50);
 	/*border-top: #fff;
 	border-left: #fff;
 	border-right: #fff;*/
