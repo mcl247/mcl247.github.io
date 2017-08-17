@@ -225,7 +225,7 @@ p{
 	font-weight: bold;
 	font-family: "Montserrat", sans-serif;
 	width: 100%;
-	margin-top: -43px;
+	margin-top: -143px;
 }
 #covername2{
 	position: relative;
@@ -716,11 +716,12 @@ text-transform: uppercase;
 
 }
 .projectimages{
-	width: 420px;
+	width: 475px;
+	padding-right: 10px;
 	height: auto;
 }
 .projectimages2{
-	width: 1160px;
+	width: 1000px;
 	height: auto;
 }
 .projectimages3{
