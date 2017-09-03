@@ -15,7 +15,7 @@
 	    	<div id ="container">
 	      		<h1>My Collection of Favorite Artworks</h1>
 	          	<div class="nav">
-	            	<span class="nav_span"><a class="link" href="index.php">Home</a></span>
+	            	<span class="nav_span"><a class="link" href="index.html">Home</a></span>
 	              	<span class="nav_span"><a class="link" href="catalog.php">Full Collection</a></span>
 	              	<span class="nav_span"><a class="link">Search My Collection</a></span>
 	          	</div> <!-- end of nav div -->   
