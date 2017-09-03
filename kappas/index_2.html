@@ -51,34 +51,6 @@
             <p class="caption">Executive Board Positions</p>
         </div><!-- end of image div -->
 
-        <?php 
-        //This script creates and prints out an array 
-
-        //Show all possible problems
-        error_reporting(E_ALL);
-
-        //Define a function
-        function create_executive_board() {
-
-        //Create an array
-        $positions= array(
-            'President'=> 'Cathleen Lyu *Regent*',
-            'Vice President' => 'Jinnie Kim *oceanic*',
-            'Warden' => 'Priscilla Wong *Evangeline*',
-            'Liasion' => 'Grace Yoon *Chambord*',
-            'Secretary' => 'Lynn Xu *Merceles*',
-            'Treasurer' => 'Samantha Wong *VESPERIA*'
-            ); 
-
-        //Loop for printing out keys and values
-        foreach ($positions as $key => $value) {
-            print "<p>$key: $value</p>\n";
-        }
-    }
-
-        create_executive_board (); //call the function
-
-        ?>  
 
         <p class="caption">Active Sisters</p>
 
