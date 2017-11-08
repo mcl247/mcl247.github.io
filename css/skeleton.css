@@ -347,6 +347,10 @@ header {
   margin:auto;
 }
 
+.overall_wrapper {
+  background-color:#f9fafb;
+}
+
 .page_wrapper {
   width:90%;
   max-width:850px;
@@ -551,7 +555,7 @@ body {
   line-height: 1.6;
   font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #415161;
-  background-color:#f9fafb}
+  background-color:#ffffff}
 
 
 /* Typography
