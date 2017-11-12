@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Cathy Liu</title>
+  <title>Materials | Cathy Liu</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -20,59 +20,82 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link type="text/css" rel="stylesheet" href="../css/featherlight.min.css" />
+
+
+  <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="../js/scroll.js"></script>
+    <script src="../js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   <link rel="icon" type="image/png" href="images/favicon.png">
-
+   <link rel="icon" type="image/png" href="../images/favicon.png">
 </head>
+
+
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- <div class="page_wrapper"> 
- <div class="container">
-  <div class="row">
-  <div class="twelve columns" id="about">
-    <div id="name">CATHY LIU</div>
-    <h6>Product & Experience Designer from Vancouver, Canada</h6>
-        
-        <div class="links">
-          
+
+   <div id="nav_bar" >
+    <div class="row" style="width:100%; margin:auto" id="nav">
+      <div class="four columns" id="nav_name"><a href="../index.html">Cathy Liu</a></div>
+        <div class="four columns">
+        <ul>
+         <li><h6 style="color:#5f5f5f">PROJECTS</h6></li>
+           <a href="../pages/perspectives.html"><li>1</li></a>
+           <a href="../pages/light.html"><li>2</li></a>
+           <a href="../pages/hec.html"><li>3</li></a>
+           <a href="../pages/materials.html"><li id="select">4</li></a>
+         </ul>
+         </div>
+          <div class="four columns" id="filler">&nbsp;</div>
         </div>
-        <div class="social">
-          <a href="index.html">work</a>
-          <a href="about.html">about</a>
-          <a href="docs/resume.pdf">resume</a>
-          <a href="art.html">art</a>
-
-       </div> 
-  </div>
-  </div>
-</div>
-
- <div class="container dd" style="padding-top: 48px">
-    <div class="row">
-      <div class="six columns">
-        <h3>HELLO</h3><br>
-        <p>I am a Junior at Cornell University studying Information Science, with a minor in Design and Environmental Analysis.</p>
-        <p>I love creating, in a space where design, technology, psychology, and business intersect. I spend most of my time diving into digital product design, but I also love to immerse myself in any cool projects I come across.</p>
-        <p>I've previously worked at <span style="color: #f75067">Haier</span> as a Product Designer and <span style="color: #f75067">Sweet Beginnings</span> as a UX Researcher and Design Consultant.</p>
-        <p>In school, I am a designer and marketing strategist on <span style="color: #f75067">Cornell University Sustainable Design</span>, a teaching assistant for <span style="color: #f75067">Introduction to Web Design and Programming</span>, and a hospitality designer for <span style="color: #f75067">Hotel Ezra Cornell</span>.</p>
-        <p>Thanks for stopping by! Want to get in touch?</p>
-        <p><span style="color: #f75067">mcl247@cornell.edu</span></p>
-      </div>
-      <div class="six columns">
-        <img id="cathy" width="75%" height=auto src="images/cathypic.jpg" alt="Cathy Liu">
       </div>
     </div>
-  </div>
+  
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ 
+ <!--Project Navigation-->
+<div class="wrapper">
+  <div class="container" style="margin:auto;">
+    <div class="row">
+      <div class="twelve columns" id="margin_top"> 
+    <!--Project Title-->
+        <h2>Materials</h2>
+      </div>
 
+    <!--Mockups-->
+      <div class="twelve columns" style="margin:3em auto 1em">
+       <center> <a href="#" data-featherlight="#mocks2"><img src="../images/jeans.png" id="mocks2" width="100%"></a>
+       </center>
+      </div> 
+          </div>
+      
+      <div class="row">
+      <div class="twelve columns">
+        <div id="shadow"><img src="../images/materials1.png" id="dl_scan" style="width:100%;"></div>
+      </div>
+    </div><br>
+    <div class="row">
+      <div class="twelve columns">
+        <img id="shadow" src="../images/materials2.png" style="width:100%;">
+      </div>
+    </div><br>
+
+     
+      <div class="twelve columns" id="project_details" style="margin-top:10%"> 
+      <h6 style="text-transform:uppercase; margin-bottom:1rem">Next Project</h6>
+      <h4><a href="../pages/perspectives.html">Perspectives</a></h4>
+    </div>
+      </div>
+       
 <footer>
-    <div class="social">
+  <div class="social">
           <a href="https://medium.com/@cathyliu_55604" target="_blank" id="hvr-float"><i class="fa fa-medium" aria-hidden="true"></i></a>
           <a href="https://www.instagram.com/cathyliiu/" target="_blank" id="hvr-float">
           <i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -81,8 +104,9 @@
           <a href="mailto:mcl247@cornell.edu" id="hvr-float">
           <i class="fa fa-envelope" aria-hidden="true"></i></a>
       </div>
-          <h6>© 2017 Cathy Liu</h6>  
+<h6>© 2017 Cathy Liu</h6> 
 </footer>
+    </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
